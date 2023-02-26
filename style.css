@@ -1,153 +1,40 @@
-/* Comencem resetejant els valors del navegador */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
-.substitul {
-  font-family: sans-serif;
-  position: absolute;
-  bottom: 240px;
-  text-align: center;
-  font-size: 2rem;
+body{
+    font-family:Arial;
+    color: #000;
+    padding-bottom: 100em;
+}
+
+p{
+opacity: 0.8;
+margin: 2em 0;
+}
+
+a{
+  border: 2px solid rgba(0,0,0,1);
+padding: 0.6em 3.5em;
+margin: auto;
+text-decoration: none;
+border-radius: 50px;
+font-size: 0.9em;
+}
+
+h1{
+font-weight: 600;
+font-size: 3em;
+}
+
+.banner{
   width: 100%;
-  margin-bottom: 1rem;
-  bottom: 200px;
-}
-
-main {
-  height: 100vh;
-  overflow-x: hidden;
-  overflow-y: auto;
-  perspective: 2px;
-}
-
-section {
-  transform-style: preserve-3d;
-  position: relative;
-  height: 100vh;
+  height: 700px;
   display: flex;
   align-items: center;
-  justify-content: center;
-  color: white;
-}
-
-section h1 {
-  text-align: center;
-  font-size: 4rem;
-  font-family: sans-serif;
-}
-
-.no-parallax {
-  background-color: rgb(16, 6, 151);
-  z-index: 20;
-}
-
-.parallax h1 {
-  height: 60%;
-  font-size: 2rem;
-}
-
-.parallax::after {
-  content: " ";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  transform: translateZ(-1px) scale(1.5);
-  background-size: 100%;
-  z-index: -1;
-}
-
-.bg::after {
-  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(http://drive.google.com/uc?export=view&id=1kM5EXYfQzkN2vSRTTur7Ak8XQ43SXgxd);
-  background-size: cover;
-}
-
-/* A partir d'aquí és el codi per al menú fixat a la part superior */
-header {
-  font-family: Arial, Helvetica, sans-serif;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 80px;
-  background-color: rgba(0, 0, 0, 0.7);
-  z-index: 1000; /*valor alt per donar preferencia*/
-}
-
-nav {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-
-nav h1 {
-  font-size: 2rem;
-  font-weight: bold;
-  color: white;
-}
-
-nav ul {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-
-nav li {
-  list-style: none;
-  margin-left: 30px;
-}
-
-nav li a {
-  color: white;
-  text-decoration: none;
-  font-size: 1.2rem;
-  text-transform: uppercase;
-  transition: all 0.3s ease;
-}
-
-nav li a:hover {
-  color: rgb(0, 221, 81);
-}
-.taula {
-  background-color: rgb(187, 22, 10);
-  padding: 2rem;
-}
-
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 1rem;
-}
-
-th, td {
-  padding: 0.5rem;
-  border: 1px solid black;
-}
-
-th {
-  background-color: grey;
-  color: white;
-}
-
-tr:nth-child(even) {
-  background-color: rgb(187, 22, 10);
+  text-align: left;
+  background-image: url("messi");
+  background-attachment: fixed;
 }
