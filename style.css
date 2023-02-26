@@ -6,7 +6,7 @@
 
 body{
     font-family:Arial;
-    color: #000;
+    color: #fff;
     padding-bottom: 100em;
 }
 
@@ -16,13 +16,23 @@ margin: 2em 0;
 }
 
 a{
-  border: 2px solid rgba(0,0,0,1);
+  border: 2px solid rgba(255,255,255,1);
 padding: 0.6em 3.5em;
 margin: auto;
+opacity: 0.8;
+color: #fff;
 text-decoration: none;
 border-radius: 50px;
 font-size: 0.9em;
+transition: all .25s;
 }
+
+a:hover{
+    background: #fff;
+    color: #000;
+
+}
+
 
 h1{
 font-weight: 600;
@@ -35,6 +45,12 @@ font-size: 3em;
   display: flex;
   align-items: center;
   text-align: left;
-  background-image: url("108605-messi-campeon-del-mundo.jpg");
-  background-attachment: fixed;
+  background: center fixed url(108605-messi-campeon-del-mundo.jpg);
+}
+
+.banner_description{
+  width: 90%;
+  max-width: 1000px;
+  display: block;
+  margin: auto;
 }
