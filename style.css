@@ -39,7 +39,7 @@ section h1
 
 .no-parallax 
 {
-  background-color: #5333ed;
+  background-color: #7065a7;
   z-index: 999;
 }
 
@@ -64,7 +64,7 @@ section h1
 
 .bg::after 
 {
-  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("/img/ny.jpeg");
+  background: linear-gradient url("/img/ny.jpeg");
   background-size: cover;
 }
 
@@ -110,3 +110,4 @@ body{
 .menu li a:hover{
   background: #ef8324;
 }
+
