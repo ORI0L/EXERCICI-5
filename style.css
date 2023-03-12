@@ -59,7 +59,7 @@ section h1
 
 .bg::after 
 {
-background: linear-gradient url("./img/ny.jpeg");  
+background: linear-gradient url("ny.jpg.jpg");  
 background-size: cover;
 }
 
