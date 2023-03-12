@@ -59,7 +59,7 @@ section h1
 
 .bg::after 
 {
-background: linear-gradient url("ny.jpg.jpg");  
+background: linear-gradient src("https://image.nuevayork.es/wp-content/uploads/2020/03/New-York-Helicopter-Tour-2.eric_both.bottom_right.jpg");  
 background-size: cover;
 }
 
@@ -78,7 +78,7 @@ background-size: cover;
 
 body{
   font-family: Arial, Helvetica, sans-serif;
-  background: url("ny.jpg.jpg");
+  background: src("https://image.nuevayork.es/wp-content/uploads/2020/03/New-York-Helicopter-Tour-2.eric_both.bottom_right.jpg");
 }
 
 .menu{
