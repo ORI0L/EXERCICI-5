@@ -57,11 +57,6 @@ section h1
   z-index: -1;
 }
 
-.bg::after 
-{
-background: linear-gradient url(imágenes/nova\ york.jpg);  
-background-size: cover;
-}
 
 @media screen and (min-width: 768px) 
 {
@@ -104,7 +99,4 @@ body{
 
 .menu li a:hover{
   background: #ef8324;
-}
-.table li{
-  color: #000;
 }
